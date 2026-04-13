@@ -4,6 +4,9 @@ version = "0.1.0"
 authors = ["Victor Polevoy <fx@thefx.co>"]
 description = "A procedural macro for ensuring strict type safety."
 edition = "2024"
+license = "MIT"
+repository = "https://github.com/iddm/strict-typing"
+documentation = "https://docs.rs/strict-typing"
 
 [lib]
 proc-macro = true
