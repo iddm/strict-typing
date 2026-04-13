@@ -1,5 +1,9 @@
 # strict-typing
 
+[![Crates.io](https://img.shields.io/crates/v/strict-typing.svg)](https://crates.io/crates/strict-typing)
+[![Documentation](https://docs.rs/strict-typing/badge.svg)](https://docs.rs/strict-typing)
+[![License: MIT](https://img.shields.io/crates/l/strict-typing.svg)](https://opensource.org/licenses/MIT)
+
 A Rust procedural macro that enforces strict typing on struct fields, enum variants, function signatures, trait definitions, and impl blocks. It prevents the use of bare primitive types, encouraging newtype wrappers for clarity and safety.
 
 Rust is all about correctness in my humble opinion. And I want it to stay that way
