@@ -1,0 +1,5 @@
+error: field `count` uses disallowed type `u32`
+ --> tests/cases/fail_struct_primitive.rs:5:12
+  |
+5 |     count: u32,
+  |            ^^^

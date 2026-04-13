@@ -1,0 +1,18 @@
+[package]
+name = "strict-typing"
+version = "0.1.0"
+authors = ["Victor Polevoy <fx@thefx.co>"]
+description = "A procedural macro for ensuring strict type safety."
+edition = "2024"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1"
+quote = "1"
+syn = { version = "2", features = ["full", "extra-traits"] }
+serde = { version = "1", features = ["derive"] }
+
+[dev-dependencies]
+trybuild = "1"

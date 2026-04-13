@@ -1,0 +1,5 @@
+error: variant `Value` has field with disallowed type `i32`
+ --> tests/cases/fail_enum_primitive.rs:5:11
+  |
+5 |     Value(i32),
+  |           ^^^

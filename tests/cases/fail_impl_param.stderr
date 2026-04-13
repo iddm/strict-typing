@@ -1,0 +1,5 @@
+error: impl method parameter uses disallowed type `u64`
+ --> tests/cases/fail_impl_param.rs:8:25
+  |
+8 |     fn score(&self, id: u64) -> Score {
+  |                         ^^^

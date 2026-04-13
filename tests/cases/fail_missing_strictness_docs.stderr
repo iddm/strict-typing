@@ -1,0 +1,5 @@
+error: Missing `/// - [bool] justification` in `/// # Strictness` section
+ --> tests/cases/fail_missing_strictness_docs.rs:3:22
+  |
+3 | #[strict_types(allow(bool))]
+  |                      ^^^^

@@ -1,0 +1,5 @@
+error: field `name` uses disallowed type `String`
+ --> tests/cases/fail_disallow_extra_type.rs:8:11
+  |
+8 |     name: String,
+  |           ^^^^^^

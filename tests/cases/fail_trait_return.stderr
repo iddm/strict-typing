@@ -1,0 +1,5 @@
+error: trait method return type is disallowed: `f64`
+ --> tests/cases/fail_trait_return.rs:7:32
+  |
+7 |     fn score(&self, id: Id) -> f64;
+  |                                ^^^

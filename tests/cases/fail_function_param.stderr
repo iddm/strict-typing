@@ -1,0 +1,5 @@
+error: function parameter uses disallowed type `u32`
+ --> tests/cases/fail_function_param.rs:6:17
+  |
+6 | fn bad_param(x: u32) -> Output {
+  |                 ^^^

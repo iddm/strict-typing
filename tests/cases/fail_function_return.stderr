@@ -1,0 +1,5 @@
+error: function return type is disallowed: `u64`
+ --> tests/cases/fail_function_return.rs:6:28
+  |
+6 | fn bad_return(x: Input) -> u64 {
+  |                            ^^^
